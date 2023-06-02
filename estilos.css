@@ -1,0 +1,185 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*Padriniza uma fonte*/
+
+    line-height: 1.6;
+
+    /*Altura da linha*/
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.container {
+
+    margin: 0 auto;
+
+    /*define o tamanho da margin*/
+
+    width: 1000px;
+
+    /*Largura do container*/
+
+}
+
+
+
+
+.container h1 {
+
+    text-align: center;
+
+    /*Centraliza um texto*/
+
+}
+
+
+
+
+
+.lugar {
+
+    border: 2px solid;
+
+    /*Adiciona a borda e Tamanho*/
+
+    border-color: #050707 #000 #090a0a #000;
+
+    /*Mudar as cores das boradas*/
+
+    background-color: rgb(245, 245, 242);
+
+    /*Coloca cor no fundo do texto*/
+
+    margin-bottom: 10px;
+
+    /*Cria uma margem onde você escolher Baixo,Cima,Direita ou Esquerda da tabela */
+
+    padding: 10px;
+
+    /*Adiciona espaço para todos os lados dentro da borda*/
+
+    width: 600px;
+
+    float: left;
+
+}
+
+
+
+
+.lugar h2 {
+
+    border-bottom: 1px dashed #000;
+
+    /*Coloca uma linha em baixo do titulo h2*/
+
+    margin: 0;
+
+}
+
+
+
+
+h1 {
+
+    color: #000;
+
+}
+
+
+
+
+h2 {
+
+    color: #000;
+
+}
+
+
+
+
+.lugar img {
+
+    border: 1px solid #000;
+
+    float: left;
+
+    /*Alinhamento da foto*/
+
+    margin: 10px 10px 0 0;
+
+    padding: 2px;
+
+    height: 100px;
+
+    /*DDefine o tamanho da imagem*/
+
+}
+
+
+
+
+.rodape {
+
+    font-size: 30px;
+
+    text-align: center;
+
+}
+
+
+
+
+.lateral {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+
+    background-color: rgb(255, 255, 255);
+
+    padding: 10px;
+
+    float: right;
+
+    width: 250px;
+
+    position:absolute;
+
+    top: 2;
+
+    transform:translate(240%);
+
+}
+
+
+
+
+.lateral h3 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 20px;
+
+    margin-top: 0;
+
+}
+
+
+
+
+.lateral ol {
+
+    font-size: 15px;
+
+}
+
+.clear{
+
+    clear:both;
+
+}
